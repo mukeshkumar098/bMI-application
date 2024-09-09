@@ -16,13 +16,16 @@ form.addEventListener("submit", (e) => {
     } else {
         const bmi = (weight / ((height * height) / 10000)).toFixed(2);
         results.innerHTML = `<span>${bmi}<span>`
+        if (bmi < 18.6) {
+            guide.innerHTML = 'Under Weight'
+        } else if (bmi > 18.6 && bmi < 24.6) {
+            guide.innerHTML = ' Normal'
+        } else {
+            guide.innerHTML = ' Overwaight'
+        }
 
     }
-    // if (bmi < 18.6) {
-    //     guide.innerHTML = 'Under Weight'
-    // } else if (bmi > 18.6 || bmi < 24.6) {
-    //     guide.innerHTML = ' Normal'
-    // }
+
 
 })
 document.querySelector('.male').addEventListener('click', () => {
