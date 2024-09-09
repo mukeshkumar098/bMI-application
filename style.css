@@ -292,6 +292,52 @@ button {
     #firstcon {
         width: 100%;
     }
+    .input {
+        background-color: rgb(35, 35, 61);
+        box-shadow: 2px 2px 4px;
+        width: 380px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    #condi {
+        color: white;
+        font-size: 20px;
+        width: 380px;
+        background-color: rgb(35, 35, 61);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .result {
+        width: 380px;
+        background-color: rgb(35, 35, 61);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    button {
+        width: 380px;
+        margin-top: 30px;
+        height: 50px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        font-size: 20px;
+        background-color: red;
+    }
     #firstcon {
         width: 100%;
         display: flex;
