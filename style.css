@@ -97,6 +97,8 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    padding-left: 70px;
+    font-size: 20px;
 }
 
 .ages {
@@ -191,6 +193,8 @@ button {
     height: 40px;
     width: 200px;
     border-radius: 10px;
+    padding-left: 70px;
+    font-size: 20px;
 }
 
 .container {
