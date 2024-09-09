@@ -28,8 +28,12 @@ form.addEventListener("submit", (e) => {
 document.querySelector('.male').addEventListener('click', () => {
     document.querySelector('.male').style.color = 'red'
     document.querySelector('.male').style.background = ' rgb(79, 79, 114)'
+    document.querySelector('.female').style.color = 'white'
+    document.querySelector('.female').style.background = ' rgb(35, 35, 61)'
 })
 document.querySelector('.female').addEventListener('click', () => {
     document.querySelector('.female').style.color = 'red'
     document.querySelector('.female').style.background = ' rgb(79, 79, 114)'
+    document.querySelector('.male').style.color = 'white'
+    document.querySelector('.male').style.background = ' rgb(35, 35, 61)'
 })
